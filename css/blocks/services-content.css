@@ -28,7 +28,6 @@ section.services {
 .service {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 
 }
 .servece__wrap-pic {
