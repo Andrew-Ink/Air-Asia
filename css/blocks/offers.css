@@ -1,0 +1,134 @@
+
+.offers-conteiner {
+  min-height: 490px;
+  padding-top: 248px;
+}
+
+.offers__boxtitle {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 54px;
+}
+
+.offers__title {
+  display: inline-block;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.offers__logo {
+  display: inline-block;
+  margin-left: 11px;
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-bottom: 123px; */
+}
+
+.offers__item {
+  min-height: 450px;
+  width: calc(100% / 3 - 18px);
+  margin-bottom: 25px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  min-height: 450px;
+  background-color: #fff;
+  border-radius: 5px;
+  
+  
+}
+
+.offer__wrap-pic {
+  width: 100%;
+  height: 144px;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+
+.offer__pic {
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+.offer__content {
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 27px 21px;
+  /* padding-bottom: 20px; */
+}
+
+.offer__features {
+
+  display: inline-block;
+  vertical-align: middle;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  margin-bottom: 25px;
+}
+
+.offer__feature {
+  display: inline-block;
+  /* vertical-align: middle; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 30px;
+}
+/* 
+.offer__feature-text {
+  display: block;
+} */
+
+.offer__feature:last-child {
+  margin-right: 0;
+}
+
+.offer__feature-icon {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.offer__feature-text {
+  display: inline-block;
+  vertical-align: middle;
+} 
+
+.offer__feature-text:last-child {
+  margin-right: 0;
+}
+
+.offer__title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+
+.offer__text {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 26px;
+}

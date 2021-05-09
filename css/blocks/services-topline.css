@@ -1,0 +1,21 @@
+section.services-topline {
+  height: 100%;
+  align-items: flex-start;
+  background-image: url('../../img/background/headline.png');
+  background-position: 50% 0%;
+}
+
+.conteiner-topline {
+min-height: 412px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+
+h1.title-page {
+  font-size: 72px;
+  font-weight: 700;
+}
+

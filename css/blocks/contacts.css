@@ -1,0 +1,41 @@
+.contacts {
+  text-align: right;
+  font-style: normal;
+  margin-left: auto;
+  flex-basis: 191px;
+  padding-top: 2px;
+}
+
+.contacts__phone {
+  font-size: 26px;
+
+  margin-right: 0;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.contacts-footer {
+  text-align: right;
+  margin-left: 0;
+  padding-top: 10px;
+}
+
+.footer-inner-page .contacts-footer {
+padding-top: 7px;
+}
+
+.contacts__title {
+  font-size: 11px;
+  margin-right: 0;
+  line-height: 2.5;
+}
+
+.footer-inner-page .contacts__title {
+  color: #9a9a9a;
+  line-height: 2.5;
+}

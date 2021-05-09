@@ -1,0 +1,16 @@
+
+.social {
+  margin-left: auto;
+  margin-right: 68px;
+  padding-top: 13px;
+ }
+ 
+ .social__item {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 6px;
+ }
+ 
+ .social__icon:hover {
+   filter: brightness(2.1);
+ }

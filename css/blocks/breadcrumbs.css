@@ -1,0 +1,25 @@
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #9A9A9A;
+  line-height: 4.5;
+  text-decoration: underline;
+}
+
+.breadcrumbs__link:after {
+  content: " / ";
+}
+
+.breadcrumbs__link--active {
+  font-weight: 700;
+  content: 'none';
+}
+
+.breadcrumbs__link--active:after {
+  content: none;
+  
+}
+
+

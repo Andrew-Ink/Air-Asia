@@ -1,0 +1,6 @@
+.wrapper__main {
+  background-image: url("../../img/background/hero.png"), url("../../img/background/bottom-pic.png");
+  background-position: top center, 49% 93%;
+  background-repeat: no-repeat;
+
+}
