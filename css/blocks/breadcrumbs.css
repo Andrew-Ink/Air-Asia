@@ -8,8 +8,16 @@
   text-decoration: underline;
 }
 
+.breadcrumbs__item {
+  margin-right: 0.1em;
+}
+
+.breadcrumbs__item:last-child {
+  margin-right: 0;
+}
+
 .breadcrumbs__link:after {
-  content: " / ";
+  content: "/";
 }
 
 .breadcrumbs__link--active {

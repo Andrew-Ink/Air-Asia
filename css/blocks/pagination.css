@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 
 .pagination__title {
@@ -12,10 +11,17 @@
 }
 
 .pagination__title, .pagination__list {
-  /* display: inline-block; */
-  /* vertical-align: middle; */
   display: flex;
   justify-content: center;
+}
+
+.pagination__index {
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+}
+
+.pagination__numbers {
+  margin-left: 0.2em;
 }
 
 .pagination__item {
@@ -23,8 +29,6 @@
   font-weight: 700;
   display: flex;
   justify-content: center;
-  /* display: inline-block; */
-  /* vertical-align: middle; */
   width: 32px;
   height: 32px;
   border-radius: 50%;
