@@ -42,6 +42,8 @@
 .form__input:focus {
   outline: none;
   border: #F5170E 1px solid;
+  transition: 0.7s;
+  
 }
 .form__input::placeholder {
   color: #666;
