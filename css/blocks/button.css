@@ -10,6 +10,7 @@
   border-width: 1px;
   border-radius: 35px;
   text-transform: uppercase;
+  transition: .3s;
 }
 
 
@@ -24,6 +25,7 @@
   border-style: solid;
   border-radius: 35px;
   text-transform: uppercase;
+  transition: .3s;
 }
 
 
@@ -45,3 +47,42 @@
   padding: 17px 29px;
 }
 
+
+.button__form-clear {
+  color: #fff;
+  padding: 18px 44px;
+  background-color:#2B2B2B;
+  border-color: #2B2B2B;
+  transition: .3s;
+}
+/* 
+.button__form-clear, .button__form-send {
+  cursor: pointer;
+} */
+
+.button__form-clear:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8E8E8E;
+  border-color: #8E8E8E;
+  transition: .3s;
+}
+
+
+.button__form-send:hover {
+  color: #fff;
+  background-color: #F5170E;
+  border-color: #F5170E;
+  cursor: pointer;
+
+}
+
+.button-welcom {
+  padding: 18px 56PX;
+}
+
+.button-welcom:hover {
+  color: #fff;
+background-color: #DA0100;
+border-color: #DA0100;
+}

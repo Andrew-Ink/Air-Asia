@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  height: 100%;
   width: 100%;
 }
 
@@ -39,6 +42,10 @@ h6 {
   margin: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .conteiner {
   max-width: 1141px;
   margin-left: auto;
@@ -47,16 +54,16 @@ h6 {
 
 .wrapper {
   min-height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-  .wrapper__content {
+.wrapper__content {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 
-  
-  
+

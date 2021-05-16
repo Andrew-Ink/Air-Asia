@@ -1,7 +1,7 @@
 /*Base settings*/
 
-@import url('./layout/normalize.css');
 @import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
 @import url('./layout/base.css');
 @import url('./blocks/header.css');
 @import url('./blocks/logo.css');
@@ -16,7 +16,11 @@
 @import url('./blocks/footer.css');
 @import url('./blocks/social.css');
 @import url('./blocks/background.css');
-@import url('./blocks/services-topline.css');
+@import url('./blocks/topline.css');
 @import url('./blocks/breadcrumbs.css');
-@import url('./blocks/services-content.css');
+@import url('./blocks/services.css');
 @import url('./blocks/partners.css');
+@import url('./blocks/welcom.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/form.css');
+@import url('./blocks/separator.css');

@@ -1,0 +1,11 @@
+.conteiner-topline {
+min-height: 412px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+h1.title-page {
+  font-size: 72px;
+  font-weight: 700;
+}

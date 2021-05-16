@@ -33,6 +33,7 @@
   height: 32px;
   border-radius: 50%;
   line-height: 32px;
+  transition: 0.3s;
 }
 
 .pagination__number {
@@ -50,15 +51,26 @@
   color: #F5170E;
 }
 
-.pagination__services {
+.pagination__services, .pagination__reviews {
   color: #000;
 }
 .pagination__services .pagination__item--active {
   background: #F5170E;
   color: white;
+  transition: 0.3s;
 }
 
 .pagination__services .pagination__item:hover {
+  background: #F5170E;
+  color: white;
+}
+.pagination__reviews .pagination__item--active {
+  background: #F5170E;
+  color: white;
+  transition: 0.3s;
+}
+
+.pagination__reviews .pagination__item:hover {
   background: #F5170E;
   color: white;
 }

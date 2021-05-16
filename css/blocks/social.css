@@ -9,8 +9,9 @@
    display: inline-block;
    vertical-align: middle;
    margin-right: 6px;
- }
- 
- .social__icon:hover {
+   transition: 0.4s;
+  }
+  
+ .social__item:hover {
    filter: brightness(2.1);
  }

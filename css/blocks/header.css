@@ -11,5 +11,84 @@
   padding-top: 28px;
 }
 
+.contacts__workhours {
+  display: inline-block;
+  position: relative;
+}
+
+.contacts__workhours::before {
+  content: "";
+  height: 25px;
+  width: 157px;
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+}
+
+.contacts__workhours-link {
+  opacity: 0.5;
+}
+
+
+.contacts__workhours-list {
+  position: absolute;
+  top: -9999px;
+  right: 9999px;
+  width: 157px;
+  height: 67px;
+  background-color: #EDEDED;
+  color: #1E1F20;
+  opacity: 0;
+  text-align: left;
+  line-height: 1.6;
+  padding: 12px 16px;
+  border-radius: 5px;
+  transition: opacity 1s ;
+}
+
+.contacts__workhours-link::after {
+  content: "";
+  border: 10px solid transparent;
+  border-bottom-color:#EDEDED;
+  opacity: 0;
+  border-top-width: 0;
+  position: absolute;
+  right: 9999px;
+  bottom: 9999px;
+  transition: opacity 1s ;
+}
+
+.contacts__workhours:hover .contacts__workhours-link {
+  opacity: 1;
+  transition: 1s;
+
+}
+
+.contacts__workhours:hover > .contacts__workhours-link::after  {
+opacity: 0.8;
+position: absolute;
+right: 44px;
+bottom: -10px;
+}
+.contacts__workhours:hover > .contacts__workhours-list   {
+opacity: 0.8;
+position: absolute;
+top: 24px;
+right: 0px;
+}
+
+.contacts__workhours-item {
+  text-decoration: none;
+}
+
+.contacts__workhours-item:nth-child(1) {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.contacts__workhours-item:nth-child(2) {
+  font-size: 13px;
+  font-weight: 600;
+}
 
 
