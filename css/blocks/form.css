@@ -37,14 +37,17 @@
   border: transparent 1px solid;
   padding: 20px 30px;
   margin-right: 28px;
+
 }
 
 .form__input:focus {
   outline: none;
   border: #F5170E 1px solid;
   transition: 0.7s;
-  
+
 }
+
+
 .form__input::placeholder {
   color: #666;
 }
@@ -83,15 +86,15 @@
   transition: 0.2s linear;
 }
 
-.form_control-checkbox {
+.form__control-checkbox {
   display: none;
 }
 
-.form_control-checkbox:checked+.form__control-tag {
+.form__control-checkbox:checked+.form__control-tag {
   background:#B9EAE4;
 }
 
-.form_control-checkbox:hover+.form__control-tag {
+.form__control-checkbox:hover+.form__control-tag {
   background:#B9EAE4;
 }
 

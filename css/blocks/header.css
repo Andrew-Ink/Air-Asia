@@ -66,13 +66,11 @@
 
 .contacts__workhours:hover > .contacts__workhours-link::after  {
 opacity: 0.8;
-position: absolute;
 right: 44px;
 bottom: -10px;
 }
 .contacts__workhours:hover > .contacts__workhours-list   {
 opacity: 0.8;
-position: absolute;
 top: 24px;
 right: 0px;
 }

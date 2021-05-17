@@ -17,10 +17,13 @@
   transition: .4s;
 }
 
-.menu__item:hover {
+.menu__link:hover {
   color: #DA0100;
 }
 
+.menu__link--active {
+  color: #DA0100;
+}
 
 
 .footer-inner-page .menu {

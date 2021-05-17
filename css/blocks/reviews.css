@@ -64,28 +64,24 @@ margin-bottom: 75px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 2px;
 }
 
-.review__client-names {
-  display: flex;
-  align-items: center;
-  
-}
-
-.review__clent-social-icon {
-  display: inline-block;
-  vertical-align: baseline;
-} 
-
-.review__client-name {
+.review__client-name-link {
   font-size: 24px;
   font-weight: 700;
   color: #1A1B1E;
-  line-height: 2;
-  margin-right: 6px;
+  line-height: 1.75;
 }
 
-.review__client-name:hover {
+.review__client-name-link::after {
+  display: inline-block;
+  content: url('../../img/icon/vk-blue.png');
+  height: 30px;
+  margin-left: 8px;
+}
+
+.review__client-name-link:hover {
   color: #2E77A4;
   text-decoration: underline;
 }
