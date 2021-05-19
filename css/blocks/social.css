@@ -1,8 +1,6 @@
 
 .social {
-  margin-left: auto;
-  margin-right: 68px;
-  padding-top: 13px;
+  margin: 10px 73px 0 auto;
  }
  
  .social__item {
@@ -14,4 +12,8 @@
   
  .social__item:hover {
    filter: brightness(2.1);
+ }
+
+ .social__item:last-child {
+   margin: 0;
  }

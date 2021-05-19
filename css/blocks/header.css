@@ -16,15 +16,6 @@
   position: relative;
 }
 
-.contacts__workhours::before {
-  content: "";
-  height: 25px;
-  width: 157px;
-  position: absolute;
-  right: 0px;
-  bottom: -10px;
-}
-
 .contacts__workhours-link {
   opacity: 0.5;
 }
@@ -56,6 +47,16 @@
   right: 9999px;
   bottom: 9999px;
   transition: opacity 1s ;
+}
+
+.contacts__workhours-list::after {
+  content: "";
+  height: 25px;
+  width: 157px;
+  position: absolute;
+  right: 0px;
+  /* bottom: -10px; */
+  top: -23px;
 }
 
 .contacts__workhours:hover .contacts__workhours-link {

@@ -20,12 +20,12 @@
   content: "/";
 }
 
-.breadcrumbs__link--active {
+.breadcrumbs__item--active {
   font-weight: 700;
   content: 'none';
 }
 
-.breadcrumbs__link--active:after {
+.breadcrumbs__item--active > .breadcrumbs__link:after {
   content: none;
   
 }
