@@ -46,7 +46,7 @@
   transition: opacity 1s ;
 }
 
-.contacts__workhours-link::after {
+.contacts__workhours-list::before {
   content: "";
   border: 10px solid transparent;
   border-bottom-color:#EDEDED;
@@ -61,23 +61,23 @@
 .contacts__workhours:hover .contacts__workhours-link {
   opacity: 1;
   transition: 1s;
-
 }
 
-.contacts__workhours:hover > .contacts__workhours-link::after  {
-opacity: 0.8;
+.contacts__workhours:hover > .contacts__workhours-list::before  {
+opacity: 1;
 right: 44px;
-bottom: -10px;
+top: -10px;
 }
+
 .contacts__workhours:hover > .contacts__workhours-list   {
 opacity: 0.8;
 top: 24px;
 right: 0px;
 }
-
+/* 
 .contacts__workhours-item {
   text-decoration: none;
-}
+} */
 
 .contacts__workhours-item:nth-child(1) {
   font-size: 13px;

@@ -82,7 +82,7 @@
   gap: 10px;
 }
 .form__control-tag {
-
+  cursor: pointer;
   transition: 0.2s linear;
 }
 

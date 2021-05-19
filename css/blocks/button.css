@@ -55,10 +55,6 @@
   border-color: #2B2B2B;
   transition: .3s;
 }
-/* 
-.button__form-clear, .button__form-send {
-  cursor: pointer;
-} */
 
 .button__form-clear:hover {
   color: #fff;

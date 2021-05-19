@@ -18,7 +18,7 @@ section.partners {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
 }
 
 .partners__item {
