@@ -1,0 +1,62 @@
+.welcom__content {
+  background-image: url('../../img/background/shades.png');
+  background-repeat: no-repeat;
+  background-position: 0% 15%;
+  
+  /* overflow: visible; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 591px;
+  height: 450px;
+  transform: scale(0);
+  animation: welcom-animation 0.8s ease-in-out 1s forwards;
+}
+
+@keyframes welcom-animation {
+
+  0% {
+    transform: scale(0)
+  }
+  
+  20% {
+    transform: scale(1.2)
+  }
+
+  40% {
+    transform: scale(0.85)
+  }
+
+  60% {
+    transform: scale(1.05)
+  }
+
+  80% {
+    transform: scale(0.95)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+
+
+.welcom__wrap-logo {
+  height: 119px;
+  width: 279px;
+  overflow: hidden;
+}
+
+.welcom__logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.welcom__title {
+  font-size: 18px;
+  font-weight: 400;
+margin-bottom: 55px;
+}

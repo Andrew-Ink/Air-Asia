@@ -1,0 +1,27 @@
+.separator {
+  background: #fff;
+  background-image: url('../../img/background/midlline.jpg');
+  background-position: 0% 0%;
+}
+
+.separator-conteiner {
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;                            
+  overflow: hidden;
+  background-image: url('../../img/couple.png');
+  background-repeat: no-repeat;
+  background-position: 95% 80%;
+}
+
+
+.separator__content {
+  max-width: 52%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+

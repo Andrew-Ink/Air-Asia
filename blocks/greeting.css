@@ -1,0 +1,54 @@
+
+
+.greeting-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 445px;
+  padding-top: 109px;
+}
+
+.greeting__title {
+  font-weight: 700;
+  font-size: 72px;
+  margin-bottom: 27px;
+  max-width: 45%;
+  line-height: 1.4;
+}
+
+.greeting__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+
+.button__greeting {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  outline: none;
+  padding: 18px 39px;
+  background-color: #F5170E;
+  border-color: #F5170E;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+.button__greeting:hover {
+  font-size: 14px;
+  font-weight: 700;
+  color: #F5170E;
+  outline: none;
+  padding: 18px 39px;
+  background-color: #fff;
+  border-color: #F5170E;
+  border-style: bold;
+  box-sizing: 1px;
+  border-radius: 35px;
+  text-transform: uppercase;
+}

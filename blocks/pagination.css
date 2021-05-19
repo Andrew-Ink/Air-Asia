@@ -1,0 +1,77 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__title {
+
+  font-size: 16px;
+  margin-right: 25px;
+}
+
+.pagination__title, .pagination__list {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__index {
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+}
+
+.pagination__numbers {
+  margin-left: 0.2em;
+}
+
+.pagination__item {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+  transition: 0.3s;
+}
+
+.pagination__number {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__item--active {
+  background: white;
+  color: #F5170E;
+}
+
+.pagination__item:hover {
+  background: white;
+  color: #F5170E;
+}
+
+.pagination__services, .pagination__reviews {
+  color: #000;
+}
+.pagination__services .pagination__item--active {
+  background: #F5170E;
+  color: white;
+  transition: 0.3s;
+}
+
+.pagination__services .pagination__item:hover {
+  background: #F5170E;
+  color: white;
+}
+.pagination__reviews .pagination__item--active {
+  background: #F5170E;
+  color: white;
+  transition: 0.3s;
+}
+
+.pagination__reviews .pagination__item:hover {
+  background: #F5170E;
+  color: white;
+}
+
