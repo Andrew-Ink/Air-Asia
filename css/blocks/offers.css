@@ -132,3 +132,7 @@
   line-height: 1.5;
   margin-bottom: 26px;
 }
+
+.offer__button {
+  padding: 17px 29px;
+}

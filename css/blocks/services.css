@@ -41,7 +41,7 @@ section.services {
   /* margin-right: 56px; */
 }
 
-img.service__pic{
+img.service__pic {
   display: block;
   height: 333px;
   width: 460px;
@@ -71,32 +71,4 @@ img.service__pic{
   line-height: 1.7;
   margin-bottom: 15px;
 }
-/* 
-.button__greeting {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  outline: none;
-  padding: 18px 39px;
-  background-color: #F5170E;
-  border-color: #F5170E;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 35px;
-  text-transform: uppercase;
-}
-
-.button__greeting:hover {
-  font-size: 14px;
-  font-weight: 700;
-  color: #F5170E;
-  outline: none;
-  padding: 18px 39px;
-  background-color: #fff;
-  border-color: #F5170E;
-  border-style: bold;
-  box-sizing: 1px;
-  border-radius: 35px;
-  text-transform: uppercase;
-} */
 

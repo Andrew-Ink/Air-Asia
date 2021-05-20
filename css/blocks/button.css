@@ -36,17 +36,31 @@
 }
 
 .button-white:hover {
-  font-size: 14px;
-  font-weight: 700;
   color: #fff;
   background-color: #F5170E;
   border-color: #F5170E;
 }
 
-.offer__button {
-  padding: 17px 29px;
+
+.button__greeting {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  outline: none;
+  padding: 18px 39px;
+  background-color: #F5170E;
+  border-color: #F5170E;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 35px;
+  text-transform: uppercase;
 }
 
+.button__greeting:hover {
+  color: #F5170E;
+  background-color: #fff;
+  border-color: #F5170E;
+}
 
 .button__form-clear {
   color: #fff;
@@ -64,13 +78,11 @@
   transition: .3s;
 }
 
-
 .button__form-send:hover {
   color: #fff;
   background-color: #F5170E;
   border-color: #F5170E;
   cursor: pointer;
-
 }
 
 .button-welcom {

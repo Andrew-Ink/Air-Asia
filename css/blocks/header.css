@@ -23,7 +23,7 @@
 
 .contacts__workhours-list {
   position: absolute;
-  top: -9999px;
+  /* top: -9999px; */
   right: 9999px;
   width: 157px;
   height: 67px;
@@ -45,7 +45,7 @@
   border-top-width: 0;
   position: absolute;
   right: 9999px;
-  bottom: 9999px;
+  /* bottom: 9999px; */
   transition: opacity 1s ;
 }
 
@@ -55,7 +55,6 @@
   width: 157px;
   position: absolute;
   right: 0px;
-  /* bottom: -10px; */
   top: -23px;
 }
 
