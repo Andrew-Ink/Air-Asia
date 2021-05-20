@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: start;
   color: #9A9A9A;
-  line-height: 4.5;
+  line-height: 1.36;
+  padding: 24px 0;
   text-decoration: underline;
 }
 
@@ -16,18 +17,18 @@
   margin-right: 0;
 }
 
-.breadcrumbs__link:after {
+.breadcrumbs__item:after {
   content: "/";
 }
 
-.breadcrumbs__item--active {
+.breadcrumbs__item--active:after {
   font-weight: 700;
-  content: 'none';
+  content: none;
 }
-
-.breadcrumbs__item--active > .breadcrumbs__link:after {
+/* 
+.breadcrumbs__item--active::after > .breadcrumbs__link:after {
   content: none;
   
-}
+} */
 
 
